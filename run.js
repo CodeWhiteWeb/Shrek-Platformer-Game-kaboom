@@ -20,7 +20,7 @@ let err = null;
 // build user game
 function buildGame() {
 
-	const template = fs.readFileSync("template.html", "utf-8");
+	const template = fs.readFileSync("index.html", "utf-8");
 	let code = "";
 
 	code += `<script src="/dist/helper.js"></script>\n`;
