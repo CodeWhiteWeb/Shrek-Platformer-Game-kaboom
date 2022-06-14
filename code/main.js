@@ -1,4 +1,4 @@
-import kaboom from "https://unpkg.com/kaboom/dist/kaboom.mjs"
+import kaboom from "kaboom"
 import big from "./big"
 import patrol from "./patrol"
 import loadAssets from "./assets"
