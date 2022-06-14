@@ -1,12 +1,30 @@
 {
-	"name": "kaboom-env",
-	"dependencies": {
-		"@replit/database": "^2.0.1",
-		"chokidar": "^3.5.2",
-		"esbuild": "^0.12.19",
-		"express": "^4.17.1",
-		"kaboom": "^2000.2.6",
-		"stacktrace-js": "^2.0.2",
-		"ws": "^8.2.0"
-	}
+  "name": "shrek-platformer-kaboom",
+  "dependencies": {
+    "@replit/database": "^2.0.1",
+    "chokidar": "^3.5.2",
+    "esbuild": "^0.12.19",
+    "express": "^4.17.1",
+    "kaboom": "^2000.2.6",
+    "stacktrace-js": "^2.0.2",
+    "ws": "^8.2.0"
+  },
+  "version": "1.0.0",
+  "main": "run.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWhiteWeb/Shrek-Platformer-Game-kaboom.git"
+  },
+  "author": "CodeWhiteWeb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWhiteWeb/Shrek-Platformer-Game-kaboom/issues"
+  },
+  "homepage": "https://github.com/CodeWhiteWeb/Shrek-Platformer-Game-kaboom#readme",
+  "description": "A simple platformer game created with the help of Kaboom.js"
 }
